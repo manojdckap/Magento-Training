@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+<body>
+	<referenceContainer name="product.info.extrahint">
+    	<block class="Dckap\Custom\Block\Catalog\Product\View\Enquiry" name="product.info.enquiry" after="product.info.addtocart"
+template="Dckap_Custom::catalog/product/view/file.phtml">
+    	</block>
+	</referenceContainer>
+</body>
+</page>

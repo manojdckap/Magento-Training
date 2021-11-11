@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/** Grid menu xml
+ * @category  Webkul
+ * @package   Dckap_Grid
+ * @author    Webkul
+ * @copyright Copyright (c) 2010-2017 Webkul Software Private Limited (https://webkul.com)
+ * @license   https://store.webkul.com/license.html
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dckap_Grid::manager" title="Dckap Customer" module="Dckap_Grid" sortOrder="10" resource="Dckap_Grid::manager" />
+        <add id="Dckap_Grid::add_row" title="Manage Dckap Customer" module="Dckap_Grid" sortOrder="20" parent="Dckap_Grid::manager" action="grid/grid" resource="Dckap_Grid::add_row"/>
+    </menu>
+</config>

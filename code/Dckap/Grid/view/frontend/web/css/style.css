@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .fieldset .legend,
+  .actions-toolbar,
+  .login-container .fieldset:after {
+    margin-left: 0 !important;
+  }
+}
